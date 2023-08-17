@@ -1,0 +1,107 @@
+.hii {
+    color: #333;
+    text-decoration: dotted;
+    margin-top: 3px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #dd7737;
+    background: linear-gradient(90deg, rgba(221, 119, 55, 1) 37%, rgba(239, 239, 239, 1) 43%, rgba(255, 255, 255, 1) 57%, rgba(0, 255, 46, 1) 73%)
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: auto;
+    max-width: 500px;
+    box-shadow: 5px 4px 3px 2px;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.container h1 {
+    color: #333;
+    text-decoration: underline;
+    margin-bottom: 36px
+}
+
+.color-boxx {
+    width: 380px;
+    height: 200px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background-color: #f7dc44;
+    
+}
+
+.sliders {
+     
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+}
+
+.slider {
+    display: flex;
+    margin-bottom: 10px
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="range"] {
+    width: 200px;
+    margin-right: 5px;
+
+}
+
+span {
+    font-weight: 700;
+    width: 30px;
+    display: inline-block;
+    text-align: center
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.input-type-value {
+    padding: 20px;
+    background-color:rgb(126, 158, 185);
+    border:none;
+    font-size: 15px;
+    font-variant: small-caps;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    width: 180px;
+    display: inline-block;
+}
